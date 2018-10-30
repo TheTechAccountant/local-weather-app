@@ -11,7 +11,7 @@ import { MaterialModule } from './material.module';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CitySearchComponent } from './city-search/city-search.component';
 
 
@@ -25,6 +25,7 @@ import { CitySearchComponent } from './city-search/city-search.component';
     MaterialModule,
     BrowserAnimationsModule,
     FormsModule,
+    ReactiveFormsModule,
     FlexLayoutModule,
     LayoutModule,
     MatToolbarModule,
