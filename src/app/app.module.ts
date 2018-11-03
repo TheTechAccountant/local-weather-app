@@ -8,16 +8,11 @@ import { CurrentWeatherComponent } from './current-weather/current-weather.compo
 import { WeatherService } from './weather/weather.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import { SideNavComponent } from './side-nav/side-nav.component';
-import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CitySearchComponent } from './city-search/city-search.component';
-
-
-
 @NgModule({
-  declarations: [AppComponent, CurrentWeatherComponent, SideNavComponent, CitySearchComponent],
+  declarations: [AppComponent, CurrentWeatherComponent, CitySearchComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -27,7 +22,6 @@ import { CitySearchComponent } from './city-search/city-search.component';
     FormsModule,
     ReactiveFormsModule,
     FlexLayoutModule,
-    LayoutModule,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
